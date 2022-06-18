@@ -17,13 +17,10 @@ body {
 
 $color-1:#1E2439;
 $color-2:#18D2FF;
-// $color-3:#1E2439;
 $color-4:#1C1E2E;
 $color-5:#BAC4E2;
 $color-6:#3B4569;
-// $color-7:#F1F0DE;
 $color-8:#fff;
-// $color-9: #000;
 
 .container-principal {
     width: 100%;
@@ -381,17 +378,19 @@ header {
 
     .contactMe {
         color: $color-2;
-        margin: 3% auto 0 auto;
-        border: 1px solid $color-2;
+        margin: 0 auto 0 auto;
+        // border: 1px solid $color-2;
+        // background-color: red;
         padding: 40px;
         border-radius: 9px;
         transition: color 0.5s, border 0.5s;
         // background-color: red;
         width: 50%;
-
+        // background-color: red;
         .button-down {
             width: 28%;
-            margin: 0 auto;
+            // background-color: blue;
+            margin:5% auto 0 auto;
             button {
                 color: $color-2;
                 padding: 10px 60px;

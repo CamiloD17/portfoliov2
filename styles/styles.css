@@ -397,8 +397,7 @@ header .section-1 .right-1 .container-1 .img-1 {
 
 .section-4 .contactMe {
   color: #18D2FF;
-  margin: 3% auto 0 auto;
-  border: 1px solid #18D2FF;
+  margin: 0 auto 0 auto;
   padding: 40px;
   border-radius: 9px;
   -webkit-transition: color 0.5s, border 0.5s;
@@ -408,7 +407,7 @@ header .section-1 .right-1 .container-1 .img-1 {
 
 .section-4 .contactMe .button-down {
   width: 28%;
-  margin: 0 auto;
+  margin: 5% auto 0 auto;
 }
 
 .section-4 .contactMe .button-down button {
