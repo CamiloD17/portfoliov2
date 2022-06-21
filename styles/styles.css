@@ -475,6 +475,25 @@ header .section-1 .left-1 .cv h4 {
   }
 }
 @media (max-width: 621px) {
+  header .section-1 .left-1 {
+    width: 100%;
+  }
+  header .section-1 .left-1 .name {
+    width: 90%;
+    margin: 10% 0 0 0%;
+    text-align: center;
+  }
+  header .section-1 .left-1 .name h6,
+header .section-1 .left-1 .name h5 {
+    font-size: 2rem;
+    width: 30%;
+    margin: 0;
+    padding: 50px 0;
+  }
+  header .section-1 .right-1 {
+    display: none;
+  }
+
   .section-2 .logos .svg-logo {
     width: 35px;
   }
@@ -518,17 +537,16 @@ header .section-1 .left-1 .cv h4 {
     width: 100%;
   }
   header .section-1 .left-1 .name {
-    width: 90%;
-    margin: 10% 0 0 10%;
+    width: 60%;
+    margin: 0 auto;
     text-align: center;
   }
   header .section-1 .left-1 .name h6,
 header .section-1 .left-1 .name h5 {
     font-size: 2rem;
-    width: 20%;
-  }
-  header .section-1 .left-1 .name h6 {
-    width: 40%;
+    width: 50%;
+    margin: 0;
+    padding: 20% 0 0 0%;
   }
   header .section-1 .left-1 .description {
     margin: 0 auto;
