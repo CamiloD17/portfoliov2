@@ -6,7 +6,7 @@ $('.buttonProject-1').click(function(){
 })
 
 $('.buttonProject-2').click(function(){
-    urlProject2='https://model-agency.netlify.app/'
+    urlProject2='https://ice-cream-restaurant.netlify.app/'
     window.open(urlProject2, '_blank'); 
 })
 $('.buttonProject-3').click(function(){
