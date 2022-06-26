@@ -15,12 +15,17 @@ body {
     width: 100%;
 }
 
-$color-1:#1E2439;
+// $color-1:#1E2439;
+// $color-2:#18D2FF;
+// $color-4:#1C1E2E;
+// $color-5:#BAC4E2;
+// $color-6:#3B4569;
+// $color-8:#fff;
+
+$color-1:#08080D;
 $color-2:#18D2FF;
-// $color-2:#23B1D7;
-$color-4:#1C1E2E;
+$color-4:#000;
 $color-5:#BAC4E2;
-$color-6:#3B4569;
 $color-8:#fff;
 
 .container-principal {
@@ -142,7 +147,7 @@ header {
                 &:hover {
                     color: $color-8;
                     background-color: $color-1;
-                    border: 1px solid $color-6;
+                    border: 1px solid $color-8;
                     animation: none;
                 }
             }
