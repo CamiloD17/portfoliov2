@@ -451,7 +451,7 @@ header .section-1 .left-1 .cv h4 {
 .section-3 .project-2,
 .section-3 .project-3 {
     margin: 20px 0;
-    width: 32%;
+    width: 31%;
   }
   .section-3 .project-1 .img-project,
 .section-3 .project-2 .img-project,
@@ -477,55 +477,6 @@ header .section-1 .left-1 .cv h4 {
   }
 }
 @media (max-width: 621px) {
-  header .section-1 .left-1 {
-    width: 100%;
-  }
-  header .section-1 .left-1 .name {
-    width: 90%;
-    margin: 10% 0 0 0%;
-    text-align: center;
-  }
-  header .section-1 .left-1 .name h6,
-header .section-1 .left-1 .name h5 {
-    font-size: 2rem;
-    width: 30%;
-    margin: 0;
-    padding: 50px 0;
-  }
-  header .section-1 .right-1 {
-    display: none;
-  }
-
-  .section-2 .logos .svg-logo {
-    width: 35px;
-  }
-
-  .section-3 .project-1,
-.section-3 .project-2,
-.section-3 .project-3 {
-    margin: 20px auto;
-    height: 400px;
-  }
-  .section-3 .project-1 .img-project,
-.section-3 .project-2 .img-project,
-.section-3 .project-3 .img-project {
-    margin: 0 auto;
-    height: 400px;
-  }
-  .section-3 .project-1 .img-text,
-.section-3 .project-2 .img-text,
-.section-3 .project-3 .img-text {
-    padding-top: 15%;
-  }
-  .section-3 .project-1,
-.section-3 .project-2 {
-    width: 45%;
-  }
-  .section-3 .project-3 {
-    width: 90%;
-  }
-}
-@media (max-width: 480px) {
   header .navbar .icon {
     display: none;
   }
