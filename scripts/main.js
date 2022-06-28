@@ -2,15 +2,15 @@
 
 $('.buttonProject-1').click(function(){
     urlProject1='http://camilow.pythonanywhere.com/'
-    window.open(urlProject1, '_blank'); 
+    window.open(urlProject1, '_blank');
 })
 
 $('.buttonProject-2').click(function(){
     urlProject2='https://ice-cream-restaurant.netlify.app/'
-    window.open(urlProject2, '_blank'); 
+    window.open(urlProject2, '_blank');
 })
 $('.buttonProject-3').click(function(){
-    alert("Este proyecto aún se encuentra en fase de diseño. ¡Vuelva Pronto! :)")
+    alert("Este proyecto aún se encuentra en fase de diseño")
 })
 ///REDES SOCIALES///
 let linkedin = document.querySelector("#linkedin")

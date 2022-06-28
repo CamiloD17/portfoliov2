@@ -189,10 +189,8 @@ header .section-1 .right-1 .container-1 .img-1 {
 .section-3 .project-1,
 .section-3 .project-2,
 .section-3 .project-3 {
-  border-radius: 7px;
   width: 30%;
   padding: 0;
-  background-color: red;
 }
 .section-3 .project-1 .img-project,
 .section-3 .project-2 .img-project,
