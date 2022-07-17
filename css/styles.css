@@ -13,14 +13,11 @@ body {
 
 .row {
   width: 100%;
+  margin: 0;
 }
 
 .container-principal {
   width: 100%;
-  margin: 0;
-}
-
-.row {
   margin: 0;
 }
 
@@ -144,6 +141,127 @@ header .section-1 .right-1 .container-1 .img-1 {
   filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
 }
 
+@media (max-width: 1280px) {
+  header .section-1 .left-1 {
+    width: 50%;
+    padding: 0 1%;
+  }
+  header .section-1 .left-1 .name,
+header .section-1 .left-1 .description,
+header .section-1 .left-1 .btn-hireMe {
+    margin-left: 10%;
+  }
+  header .section-1 .left-1 .name h6,
+header .section-1 .left-1 .name h5 {
+    font-size: 3.9rem;
+  }
+  header .section-1 .left-1 .name h6 {
+    width: 55%;
+  }
+  header .section-1 .left-1 .btn-hireMe {
+    width: 35%;
+    margin-bottom: 20%;
+  }
+  header .section-1 .left-1 .cv {
+    width: 45%;
+    margin-bottom: 20%;
+  }
+  header .section-1 .right-1 .container-1 .img-1 {
+    margin: 15% 0 0 15%;
+  }
+}
+@media (max-width: 768px) {
+  header .section-1 {
+    width: 100%;
+    margin: 0;
+  }
+  header .section-1 .left-1 {
+    width: 50%;
+  }
+  header .section-1 .left-1 .name {
+    margin-left: 3%;
+  }
+  header .section-1 .left-1 .name h6,
+header .section-1 .left-1 .name h5 {
+    font-size: 3.5rem;
+    margin-left: 0;
+  }
+  header .section-1 .left-1 .name h6 {
+    width: 100%;
+  }
+  header .section-1 .left-1 .description {
+    margin-left: 5%;
+  }
+  header .section-1 .left-1 .btn-hireMe,
+header .section-1 .left-1 .cv {
+    margin: 15% 0 23% 3%;
+    width: 40%;
+    padding: 10px 20px;
+  }
+  header .section-1 .left-1 .btn-hireMe h4,
+header .section-1 .left-1 .cv h4 {
+    font-size: 1rem;
+  }
+  header .section-1 .left-1 .cv {
+    width: 48%;
+  }
+  header .section-1 .right-1 .container-1 .img-1 {
+    width: 90%;
+    margin: 25% 0 0 5%;
+  }
+}
+@media (max-width: 621px) {
+  header .navbar .icon {
+    display: none;
+  }
+  header .navbar ul {
+    text-align: center;
+  }
+  header .navbar ul li {
+    padding: 5px 8px;
+  }
+  header .section-1 .left-1 {
+    width: 100%;
+  }
+  header .section-1 .left-1 .name {
+    width: 58%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  header .section-1 .left-1 .name h6,
+header .section-1 .left-1 .name h5 {
+    font-size: 2rem;
+    width: 50%;
+    margin: 0;
+    padding: 20% 0 0 0%;
+  }
+  header .section-1 .left-1 .description {
+    margin: 0 auto;
+    font-size: 0.5rem;
+    padding: 20px;
+    text-align: center;
+  }
+  header .section-1 .left-1 .description h5 {
+    display: none;
+  }
+  header .section-1 .left-1 .imgPrincipal {
+    display: inline;
+    width: 50%;
+    margin: 5% 0 5% 25%;
+  }
+  header .section-1 .left-1 .btn-hireMe,
+header .section-1 .left-1 .cv {
+    margin: 5% 0 15% 3%;
+  }
+  header .section-1 .right-1 {
+    display: none;
+  }
+}
+@media (max-width: 350px) {
+  header .section-1 .left-1 .name {
+    width: 70%;
+  }
+}
 .section-2 {
   width: 100%;
   background-color: #000;
@@ -169,6 +287,21 @@ header .section-1 .right-1 .container-1 .img-1 {
   margin: 0 0 0 50px;
 }
 
+@media (max-width: 768px) {
+  .section-2 .logos .svg-logo {
+    width: 40px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 621px) {
+  .section-2 .logos {
+    width: 100%;
+  }
+  .section-2 .logos .svg-logo {
+    margin: 0;
+    width: 30px;
+  }
+}
 .section-3 {
   background-color: #08080D;
   padding-top: 1%;
@@ -271,35 +404,55 @@ header .section-1 .right-1 .container-1 .img-1 {
   padding: 20%;
 }
 
-.section-social {
-  width: 100%;
-  background-color: #000;
-  margin: 0 auto !important;
-  overflow-x: hidden;
+@media (max-width: 1280px) {
+  .section-3 {
+    padding: 50px 25px;
+    justify-content: space-between;
+  }
 }
-.section-social .logos-social {
-  width: 50%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
-  -webkit-animation: logos2 30s;
-          animation: logos2 30s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+@media (max-width: 768px) {
+  .section-3 {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .section-3 .project-1,
+.section-3 .project-2,
+.section-3 .project-3 {
+    margin: 20px 0;
+    width: 31%;
+  }
+  .section-3 .project-1 .img-project,
+.section-3 .project-2 .img-project,
+.section-3 .project-3 .img-project {
+    margin: 0 auto;
+    height: 400px;
+  }
+  .section-3 .project-1 .img-text,
+.section-3 .project-2 .img-text,
+.section-3 .project-3 .img-text {
+    padding-top: 15%;
+  }
 }
-.section-social .logos-social .svg-logo {
-  border-radius: 10%;
-  width: 50px;
-  padding: 5px;
-  cursor: pointer;
-  opacity: 1;
+@media (max-width: 621px) {
+  .section-3 .projectsText h2 {
+    font-size: 1.5rem;
+  }
+  .section-3 .project-1,
+.section-3 .project-2,
+.section-3 .project-3 {
+    width: 100%;
+  }
+  .section-3 .project-1 .img-project,
+.section-3 .project-2 .img-project,
+.section-3 .project-3 .img-project {
+    width: 100%;
+  }
+  .section-3 .project-1 .img-text,
+.section-3 .project-2 .img-text,
+.section-3 .project-3 .img-text {
+    padding: 25% 1% 0 1%;
+  }
 }
-.section-social .logos-social .svg-logo:hover {
-  -webkit-animation: headShake 1s;
-          animation: headShake 1s;
-}
-
 .section-4 {
   width: 100%;
   margin: 0 !important;
@@ -357,39 +510,6 @@ header .section-1 .right-1 .container-1 .img-1 {
 }
 
 @media (max-width: 1280px) {
-  header .section-1 .left-1 {
-    width: 50%;
-    padding: 0 1%;
-  }
-  header .section-1 .left-1 .name,
-header .section-1 .left-1 .description,
-header .section-1 .left-1 .btn-hireMe {
-    margin-left: 10%;
-  }
-  header .section-1 .left-1 .name h6,
-header .section-1 .left-1 .name h5 {
-    font-size: 3.9rem;
-  }
-  header .section-1 .left-1 .name h6 {
-    width: 55%;
-  }
-  header .section-1 .left-1 .btn-hireMe {
-    width: 35%;
-    margin-bottom: 20%;
-  }
-  header .section-1 .left-1 .cv {
-    width: 45%;
-    margin-bottom: 20%;
-  }
-  header .section-1 .right-1 .container-1 .img-1 {
-    margin: 15% 0 0 15%;
-  }
-
-  .section-3 {
-    padding: 50px 25px;
-    justify-content: space-between;
-  }
-
   .section-4 .containerText-4 h2 {
     width: 70%;
   }
@@ -399,72 +519,6 @@ header .section-1 .left-1 .name h5 {
   }
 }
 @media (max-width: 768px) {
-  header .section-1 {
-    width: 100%;
-    margin: 0;
-  }
-  header .section-1 .left-1 {
-    width: 50%;
-  }
-  header .section-1 .left-1 .name {
-    margin-left: 3%;
-  }
-  header .section-1 .left-1 .name h6,
-header .section-1 .left-1 .name h5 {
-    font-size: 3.5rem;
-    margin-left: 0;
-  }
-  header .section-1 .left-1 .name h6 {
-    width: 100%;
-  }
-  header .section-1 .left-1 .description {
-    margin-left: 5%;
-  }
-  header .section-1 .left-1 .btn-hireMe,
-header .section-1 .left-1 .cv {
-    margin: 15% 0 23% 3%;
-    width: 40%;
-    padding: 10px 20px;
-  }
-  header .section-1 .left-1 .btn-hireMe h4,
-header .section-1 .left-1 .cv h4 {
-    font-size: 1rem;
-  }
-  header .section-1 .left-1 .cv {
-    width: 48%;
-  }
-  header .section-1 .right-1 .container-1 .img-1 {
-    width: 90%;
-    margin: 25% 0 0 5%;
-  }
-
-  .section-2 .logos .svg-logo {
-    width: 40px;
-    margin: 0 auto;
-  }
-
-  .section-3 {
-    padding-left: 2%;
-    padding-right: 2%;
-  }
-  .section-3 .project-1,
-.section-3 .project-2,
-.section-3 .project-3 {
-    margin: 20px 0;
-    width: 31%;
-  }
-  .section-3 .project-1 .img-project,
-.section-3 .project-2 .img-project,
-.section-3 .project-3 .img-project {
-    margin: 0 auto;
-    height: 400px;
-  }
-  .section-3 .project-1 .img-text,
-.section-3 .project-2 .img-text,
-.section-3 .project-3 .img-text {
-    padding-top: 15%;
-  }
-
   .section-4 .containerText-4 h2 {
     width: 100%;
   }
@@ -477,79 +531,6 @@ header .section-1 .left-1 .cv h4 {
   }
 }
 @media (max-width: 621px) {
-  header .navbar .icon {
-    display: none;
-  }
-  header .navbar ul {
-    text-align: center;
-  }
-  header .navbar ul li {
-    padding: 5px 8px;
-  }
-  header .section-1 .left-1 {
-    width: 100%;
-  }
-  header .section-1 .left-1 .name {
-    width: 58%;
-    margin: 0 auto;
-    text-align: center;
-  }
-  header .section-1 .left-1 .name h6,
-header .section-1 .left-1 .name h5 {
-    font-size: 2rem;
-    width: 50%;
-    margin: 0;
-    padding: 20% 0 0 0%;
-  }
-  header .section-1 .left-1 .description {
-    margin: 0 auto;
-    font-size: 0.5rem;
-    padding: 20px;
-    text-align: center;
-  }
-  header .section-1 .left-1 .description h5 {
-    display: none;
-  }
-  header .section-1 .left-1 .imgPrincipal {
-    display: inline;
-    width: 50%;
-    margin: 5% 0 5% 25%;
-  }
-  header .section-1 .left-1 .btn-hireMe,
-header .section-1 .left-1 .cv {
-    margin: 5% 0 15% 3%;
-  }
-  header .section-1 .right-1 {
-    display: none;
-  }
-
-  .section-2 .logos {
-    width: 100%;
-  }
-  .section-2 .logos .svg-logo {
-    margin: 0;
-    width: 30px;
-  }
-
-  .section-3 .projectsText h2 {
-    font-size: 1.5rem;
-  }
-  .section-3 .project-1,
-.section-3 .project-2,
-.section-3 .project-3 {
-    width: 100%;
-  }
-  .section-3 .project-1 .img-project,
-.section-3 .project-2 .img-project,
-.section-3 .project-3 .img-project {
-    width: 100%;
-  }
-  .section-3 .project-1 .img-text,
-.section-3 .project-2 .img-text,
-.section-3 .project-3 .img-text {
-    padding: 25% 1% 0 1%;
-  }
-
   .section-4 .containerText-4 {
     margin-top: 10%;
   }
@@ -561,7 +542,6 @@ header .section-1 .left-1 .cv {
   .section-4 .contactMe button {
     padding: 5px 30px;
   }
-
   .section-social .logos-social {
     width: 80%;
     margin: 0 auto;
@@ -581,8 +561,31 @@ header .section-1 .left-1 .cv {
     opacity: 1;
   }
 }
-@media (max-width: 350px) {
-  header .section-1 .left-1 .name {
-    width: 70%;
-  }
+.section-social {
+  width: 100%;
+  background-color: #000;
+  margin: 0 auto !important;
+  overflow-x: hidden;
+}
+.section-social .logos-social {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  -webkit-animation: logos2 30s;
+          animation: logos2 30s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+.section-social .logos-social .svg-logo {
+  border-radius: 10%;
+  width: 50px;
+  padding: 5px;
+  cursor: pointer;
+  opacity: 1;
+}
+.section-social .logos-social .svg-logo:hover {
+  -webkit-animation: headShake 1s;
+          animation: headShake 1s;
 }/*# sourceMappingURL=styles.css.map */

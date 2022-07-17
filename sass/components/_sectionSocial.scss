@@ -1,0 +1,28 @@
+.section-social {
+    width: 100%;
+    background-color: $color-4;
+    margin: 0 auto !important;
+    overflow-x: hidden;
+
+    .logos-social {
+        width: 50%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        animation: logos2 30s;
+        animation-iteration-count: infinite;
+
+        .svg-logo {
+            border-radius: 10%;
+            width: 50px;
+            padding: 5px;
+            cursor: pointer;
+            opacity: 1;
+
+            &:hover {
+                animation: headShake 1s;
+            }
+        }
+    }
+}

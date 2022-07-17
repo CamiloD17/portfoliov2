@@ -1,16 +1,17 @@
 ///PROYECTOS///
 
 $('.buttonProject-1').click(function(){
-    urlProject1='http://camilow.pythonanywhere.com/'
+    urlProject1='https://mente-maravillosa-camilod17.netlify.app/'
     window.open(urlProject1, '_blank');
 })
 
 $('.buttonProject-2').click(function(){
-    urlProject2='https://ice-cream-restaurant.netlify.app/'
+    urlProject2='http://camilow.pythonanywhere.com/'
     window.open(urlProject2, '_blank');
 })
 $('.buttonProject-3').click(function(){
-    alert("Este proyecto aún se encuentra en fase de diseño")
+    urlProject3='https://ice-cream-restaurant.netlify.app/'
+    window.open(urlProject3, '_blank');
 })
 ///REDES SOCIALES///
 let linkedin = document.querySelector("#linkedin")

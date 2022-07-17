@@ -1,0 +1,166 @@
+.section-3 {
+    background-color: $color-1;
+    padding-top: 1%;
+    margin: 0 !important;
+    margin: 0 auto;
+    gap: 20px;
+    padding: 25px 50px;
+    width: 100%;
+    justify-content: space-between;
+
+    .projectsText {
+        h2 {
+            color: $color-5;
+            font-size: 2rem;
+
+            &::first-letter {
+                color: $color-2;
+            }
+        }
+    }
+
+
+
+    .project-1,
+    .project-2,
+    .project-3 {
+        // border-radius: 7px;
+        width: 30%;
+        padding: 0;
+
+        .img-project {
+            position: relative;
+            width: 100%;
+            border-radius: 7px;
+            transition: -webkit-box-shadow 1s, box-shadow 1s;
+            background-color: $color-5;
+            -webkit-box-shadow: 0px 0px 9px -1px rgba(0, 0, 0, 0.73);
+            box-shadow: 0px 0px 9px -1px rgba(0, 0, 0, 0.73);
+            transition: opacity 1s;
+
+
+        }
+
+        &:hover {
+            .img-text {
+                opacity: 1;
+                background-color: rgba(0, 0, 0, 0.9);
+            }
+        }
+
+        .img-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0;
+            z-index: 10;
+            width: 101%;
+            height: 101%;
+            border-radius: 7px;
+            transition: background-color 1s, opacity 1s;
+            padding: 15% 0 0 0;
+            text-align: center;
+            color: $color-5;
+
+            h5::first-letter {
+                color: $color-2;
+            }
+
+            h6 {
+                padding: 10px;
+
+
+
+                p {
+                    padding: 10px;
+                    color: $color-2;
+                    margin: 0;
+                }
+            }
+
+            button {
+                padding: 7px 60px;
+                border: 1px solid $color-2;
+                background-color: transparent;
+                border-radius: 9px;
+                color: $color-5;
+                transition: background-color 1s, color 1s;
+
+                &:hover {
+                    color: #000;
+                    background-color: $color-2;
+                }
+            }
+
+            &:hover {
+                button {
+                    animation: pulse 2s infinite;
+                }
+            }
+        }
+    }
+
+    .project-1,
+    .project-2,
+    .project-3 {
+        .img-project {
+            padding: 20%;
+        }
+    }
+}
+
+@media (max-width: 1280px) {
+    .section-3 {
+        padding: 50px 25px;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .section-3 {
+        padding-left: 2%;
+        padding-right: 2%;
+
+        .project-1,
+        .project-2,
+        .project-3 {
+            margin: 20px 0;
+            width: 31%;
+
+            .img-project {
+                margin: 0 auto;
+                height: 400px;
+            }
+
+            .img-text {
+                padding-top: 15%;
+            }
+        }
+    }
+}
+
+@media (max-width: 621px) {
+    .section-3 {
+        .projectsText {
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+
+        .project-1,
+        .project-2,
+        .project-3 {
+            width: 100%;
+
+            .img-project {
+                width: 100%;
+            }
+
+            .img-text {
+                padding: 25% 1% 0 1%;
+            }
+        }
+    }
+}
