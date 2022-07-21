@@ -259,7 +259,13 @@ header .section-1 .left-1 .cv {
 }
 @media (max-width: 350px) {
   header .section-1 .left-1 .name {
-    width: 70%;
+    width: 80%;
+  }
+  header .section-1 .left-1 .btn-hireMe, header .section-1 .left-1 .cv {
+    padding: 10px;
+  }
+  header .section-1 .left-1 .btn-hireMe h4, header .section-1 .left-1 .cv h4 {
+    font-size: 0.7em;
   }
 }
 .section-2 {
@@ -539,8 +545,9 @@ header .section-1 .left-1 .cv {
     width: 100%;
     border: none;
   }
-  .section-4 .contactMe button {
+  .section-4 .contactMe .button-down button {
     padding: 5px 30px;
+    margin: 0 auto;
   }
   .section-social .logos-social {
     width: 80%;
